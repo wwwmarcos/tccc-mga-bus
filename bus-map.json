@@ -1,0 +1,316 @@
+[{
+    "id": "d34",
+    "number": "007",
+    "name": "Interbairros Zona Norte"
+  },
+  {
+    "id": "d45",
+    "number": "008",
+    "name": "Interbairros 1"
+  },
+  {
+    "id": "d3q",
+    "number": "009",
+    "name": "Interbairros 2"
+  },
+  {
+    "id": "d3p",
+    "number": "010",
+    "name": "Universidade"
+  },
+  {
+    "id": "d3e",
+    "number": "011",
+    "name": "Vila Esperança"
+  },
+  {
+    "id": "d2s",
+    "number": "020",
+    "name": "Av. São Domingos"
+  },
+  {
+    "id": "d36",
+    "number": "021",
+    "name": "Av. Tuiuti"
+  },
+  {
+    "id": "d3c",
+    "number": "022",
+    "name": "Conjunto Guaiapó"
+  },
+  {
+    "id": "d0i",
+    "number": "023",
+    "name": "Conjunto Requião"
+  },
+  {
+    "id": "d0t",
+    "number": "026",
+    "name": "Jardim Paulista"
+  },
+  {
+    "id": "d43",
+    "number": "040",
+    "name": "A.A.B.B"
+  },
+  {
+    "id": "d1h",
+    "number": "041",
+    "name": "Jardim Monções"
+  },
+  {
+    "id": "d0c",
+    "number": "131",
+    "name": "Jardim Vitória"
+  },
+  {
+    "id": "d2p",
+    "number": "137",
+    "name": "Conjunto Hermann M. de Barros"
+  },
+  {
+    "id": "d3s",
+    "number": "138",
+    "name": "Miosotis"
+  },
+  {
+    "id": "d4b",
+    "number": "139",
+    "name": "Semi Expresso - Hermans M. Barros"
+  },
+  {
+    "id": "d1n",
+    "number": "141",
+    "name": "Pq. Avenida / Via Portal das Torres"
+  },
+  {
+    "id": "d4c",
+    "number": "152",
+    "name": "Cj. João Paulino"
+  },
+  {
+    "id": "d1b",
+    "number": "162",
+    "name": "Cj. Léa Leal"
+  },
+  {
+    "id": "d2g",
+    "number": "169",
+    "name": "Jd. Alvorada"
+  },
+  {
+    "id": "d2m",
+    "number": "175",
+    "name": "Jd. Sumaré"
+  },
+  {
+    "id": "d38",
+    "number": "177",
+    "name": "Parque Itaipu / Jardim Ebenezer"
+  },
+  {
+    "id": "d3d",
+    "number": "178",
+    "name": "Floriano"
+  },
+  {
+    "id": "d0o",
+    "number": "179",
+    "name": "Jd. Andrade"
+  },
+  {
+    "id": "d3h",
+    "number": "201",
+    "name": "Iguatemi"
+  },
+  {
+    "id": "d39",
+    "number": "204",
+    "name": "Jd. Licce"
+  },
+  {
+    "id": "d0h",
+    "number": "205",
+    "name": "Thermas"
+  },
+  {
+    "id": "d4p",
+    "number": "219",
+    "name": "Jd. Iguaçu"
+  },
+  {
+    "id": "d2b",
+    "number": "220",
+    "name": "Jd. São Clemente"
+  },
+  {
+    "id": "d0r",
+    "number": "221",
+    "name": "Jardim Montreal"
+  },
+  {
+    "id": "d16",
+    "number": "222",
+    "name": "Pça. São Vicente / Higienópolis"
+  },
+  {
+    "id": "d1q",
+    "number": "233",
+    "name": "Cj. Guaiapó"
+  },
+  {
+    "id": "d21",
+    "number": "234",
+    "name": "Cj. J. B. Champagnat"
+  },
+  {
+    "id": "d1j",
+    "number": "235",
+    "name": "Jd. Campos Eliseos"
+  },
+  {
+    "id": "d1v",
+    "number": "242",
+    "name": "Jardim América"
+  },
+  {
+    "id": "d1s",
+    "number": "243",
+    "name": "Jd. Liberdade"
+  },
+  {
+    "id": "ns6",
+    "number": "314",
+    "name": "Vila Nova"
+  },
+  {
+    "id": "d0s",
+    "number": "323",
+    "name": "Jd. Bertioga"
+  },
+  {
+    "id": "d2q",
+    "number": "324",
+    "name": "Porto Seguro / Conjunto Thais"
+  },
+  {
+    "id": "d3o",
+    "number": "326",
+    "name": "Cj. Europa"
+  },
+  {
+    "id": "d37",
+    "number": "334",
+    "name": "Cj. Cidade Canção"
+  },
+  {
+    "id": "d32",
+    "number": "335",
+    "name": "Vila Operária"
+  },
+  {
+    "id": "d30",
+    "number": "414",
+    "name": "Hospital Municipal"
+  },
+  {
+    "id": "d4r",
+    "number": "415",
+    "name": "Cidade Alta"
+  },
+  {
+    "id": "d4k",
+    "number": "416",
+    "name": "Cidade Alta - Via Brasil"
+  },
+  {
+    "id": "d46",
+    "number": "427",
+    "name": "Cerro Azul"
+  },
+  {
+    "id": "d1o",
+    "number": "458",
+    "name": "Jd. Universo / Via Cerro Azul"
+  },
+  {
+    "id": "d3j",
+    "number": "459",
+    "name": "Jd. Universo / Via Borba Gato"
+  },
+  {
+    "id": "d3i",
+    "number": "460",
+    "name": "Jd. Olímpico"
+  },
+  {
+    "id": "ns7",
+    "number": "461",
+    "name": "Jd. Ouro Cola"
+  },
+  {
+    "id": "d47",
+    "number": "466",
+    "name": "Cj. Borba Gato"
+  },
+  {
+    "id": "d4l",
+    "number": "512",
+    "name": "Cocamar"
+  },
+  {
+    "id": "d28",
+    "number": "528",
+    "name": "Ceasa - ( Aeroporto ) /  Jd. Oasis"
+  },
+  {
+    "id": "1bm0",
+    "number": "528A",
+    "name": "Aeroporto"
+  },
+  {
+    "id": "d2e",
+    "number": "531",
+    "name": "Pq. Industrial / Copasa / ALL"
+  },
+  {
+    "id": "d4o",
+    "number": "611",
+    "name": "Bunge"
+  },
+  {
+    "id": "d4m",
+    "number": "713",
+    "name": "Pq. Hortência"
+  },
+  {
+    "id": "d26",
+    "number": "721",
+    "name": "Atenas"
+  },
+  {
+    "id": "d50",
+    "number": "722",
+    "name": "Cj. Ney Braga"
+  },
+  {
+    "id": "d0d",
+    "number": "734",
+    "name": "Pq. das Laranjeiras"
+  },
+  {
+    "id": "d2l",
+    "number": "735",
+    "name": "Jd. Rebouças"
+  },
+  {
+    "id": "d4t",
+    "number": "736",
+    "name": "Jd. Paris"
+  },
+  {
+    "id": "gip",
+    "number": "UEM",
+    "name": "Universidade"
+  }
+]
