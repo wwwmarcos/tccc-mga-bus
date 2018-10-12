@@ -1,6 +1,6 @@
-const axios = require('axios')
-const busMap = require('./bus-map')
-const config = require('./config')
+import axios from 'axios'
+import busMap from '../bus-map'
+import config from './config'
 
 const getBusData = () => busMap
 
@@ -16,7 +16,6 @@ const getBusCalendarFromTerminal = async ({ number } = {}) => {
   if (!number) {
     throw new Error('You need define the bus number')
   }
-
   const bus = findBusByNumber(number)
 
   if (!bus) {
@@ -36,7 +35,7 @@ const getBusCalendarFromTerminal = async ({ number } = {}) => {
   }
 }
 
-module.exports = {
+export {
   getBusData,
   getBusCalendarFromTerminal
 }
