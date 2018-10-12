@@ -1,6 +1,6 @@
 {
   "name": "tccc-mga-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist",
   "repository": "git@github.com:eptaccio/tccc-mga-bus.git",
   "scripts": {
