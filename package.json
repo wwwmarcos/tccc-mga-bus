@@ -1,18 +1,10 @@
 {
   "name": "tccc-mga-bus",
   "version": "1.0.1",
-  "main": "dist",
+  "main": "src",
   "repository": "git@github.com:eptaccio/tccc-mga-bus.git",
-  "scripts": {
-    "build": "babel src --out-dir dist"
-  },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
     "axios": "^0.18.0"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0"
-  }
+  "devDependencies": {}
 }
