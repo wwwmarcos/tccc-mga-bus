@@ -1,6 +1,6 @@
-import axios from 'axios'
-import busMap from '../bus-map'
-import config from './config'
+const axios = require('axios')
+const busMap = require('../bus-map')
+const config = require('./config')
 
 const getBusData = () => busMap
 
@@ -12,7 +12,15 @@ const requestTcccData = busId => axios({
   url: `${config.TCCC_BASE_URL}/${busId}`
 })
 
-const getBusCalendarFromTerminal = async ({ number } = {}) => {
+const formatResponse = ({ tcccResponse, calendar }) => ({
+  route: {
+    name: tcccResponse.routeName,
+    description: tcccResponse.description
+  },
+  calendar
+})
+
+const getCalendar = ({ number }) => {
   if (!number) {
     throw new Error('You need define the bus number')
   }
@@ -22,20 +30,27 @@ const getBusCalendarFromTerminal = async ({ number } = {}) => {
     throw new Error(`Bus ${number} not found`)
   }
 
-  const { data: tcccResponse } = await requestTcccData(bus.id)
+  return requestTcccData(bus.id)
+}
+
+const getBusCalendarFromTerminal = async ({ number } = {}) => {
+  const { data: tcccResponse } = await getCalendar({ number })
 
   const [fromBusTerminal] = tcccResponse.directions
 
-  return {
-    route: {
-      name: tcccResponse.routeName,
-      description: tcccResponse.description
-    },
-    calendar: fromBusTerminal.calendars
-  }
+  return formatResponse({ tcccResponse, calendar: fromBusTerminal.calendars })
 }
 
-export {
+const getBusCalendarFromDistrict = async ({ number } = {}) => {
+  const { data: tcccResponse } = await getCalendar({ number })
+
+  const [, fromDistrict] = tcccResponse.directions
+
+  return formatResponse({ tcccResponse, calendar: fromDistrict.calendars })
+}
+
+module.exports = {
   getBusData,
-  getBusCalendarFromTerminal
+  getBusCalendarFromTerminal,
+  getBusCalendarFromStart: getBusCalendarFromDistrict
 }
