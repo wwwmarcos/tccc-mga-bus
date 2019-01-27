@@ -52,5 +52,5 @@ const getBusCalendarFromDistrict = async ({ number } = {}) => {
 module.exports = {
   getBusData,
   getBusCalendarFromTerminal,
-  getBusCalendarFromStart: getBusCalendarFromDistrict
+  getBusCalendarFromDistrict
 }
